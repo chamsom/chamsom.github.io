@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Justin Kim</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />  
+        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+        <link rel="manifest" href="/site.webmanifest">
+
+        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <header>
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="#services" class="nav__link">My Services</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">About Me</a></li>
+                    <li class="nav__item"><a href="#work" class="nav__link">Projects</a></li>
+                    <li class="nav__item"><a href="#footer" class="nav__link">Contact Me</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+        <!-- Introduction -->
+        <section class="intro" id="home">
+            <h1 class="section__title section__title--intro">
+                Hi, I'm<strong>Justin Kim</strong>
+            </h1>
+            <p class="section__subtitle section__subtitle--intro">SWE / Frontend Dev</p>
+            <img src="img/dev-justin-01.jpg" alt="a picture of Justin Kim" class="intro__img">
+        </section>
+        
+        
+        <!-- My services -->
+        <section class="my-services" id="services">
+            <h2 class="section__title section__title--services">What I Do</h2>
+            <div class="services">
+                <div class="service">
+                    <h3>Software Engineering</h3>
+                    <p>I work with Python and Java. My previous experiences have allowed me the privilege of not only machine learning research in clinical settings for hospitals but also the cybersecurity domain.</p>
+                    <!-- fix typos in sections -->
+                </div> <!-- / service -->
+
+                <div class="service">
+                    <h3>Front End Development</h3>
+                    <p>I am an advocate of creating elegant, responsive websites with an intuitive UI/UX design. I work with: HTML, CSS, and JavaScript ES6. My UI components are built utilizing React.js.</p>
+                </div> <!-- / service -->
+                
+                <!-- 
+                <div class="service">
+                    <h3>Cybersecurity</h3>
+                    <p>In addition to front-end development, I am knowledgable about network / web application security and am familiar with the following tools and resources: IDA Pro, Wireshark, Nmap, Ncat, Metasploit, DirBuster, Hydra, Linux Privesc, Burp Suite, Nessus, and the OWASP Top 10.</p>
+                </div> -->
+            </div> <!-- / services -->
+            
+            <a href="#work" class="btn">My Work</a>
+        </section>
+        
+        
+        <!-- About me -->
+        <section class="about-me" id="about">
+           <h2 class="section__title section__title--about">About Me</h2>
+           <p class="section__subtitle section__subtitle--about">Recent graduate of Loyola University Chicago</p>
+           
+           <div class="about-me__body">
+               <p>Hello and welcome to my website! I am a recent graduate of Loyola University Chicago that majored in Computer Science & Music. At the moment, I am seeking a challenging internship or junior developer position where I can utilize my talents and foster growth in my skills.</p>
+               <p>My passions range from software engineering to front-end development. I have had the humbling opportunity to work with Dr. Mohammed Abuhamad of Loyola's Computer Science Department and the Stritch School of Medicine in order to learn and program a conditional Generative Adversarial Network (cGAN). The research entailed applying a machine learning model that performed image-to-image translations of sCT scans to fMRI scans.</p>
+               <p>In addition, I am currently involved with the front-end development community over at Scrimba and assist other members in their JavaScript bootcamp program. As a student and graduate of Scrimba's JS bootcamp, I am currently learning React.js and a bit of Node.js.</p>
+               <p>When I am not programming or hacking away at CTFs, you will often find me practicing the piano, cooking different, unique Korean recipes, and going on scenic hiking trails!</p>
+               <p>If you are interested in working with me, please do not hesitate to contact me via email and the socials provided below!</p>
+           </div>
+           
+           <img src="img/dev-justin-02.jpg" alt="hiking in Devil's Lake State Park" class="about-me__img">
+        </section>
+        
+        <!-- My Work -->
+        <section class="my-work" id="work">
+            <h2 class="section__title section__title--work">Projects & Events</h2>
+            <p class="section__subtitle section__subtitle--work">A selection of projects & events attended</p>
+            
+            <div class="portfolio">
+                <!-- Portfolio item 01 -->
+                <!-- <a href="portfolio-item.html" class="portfolio__item"> -->
+                <a href="hacker-news.html" class="portfolio__item">
+                    <img src="img/portfolio-01.png" alt="an image of a social news website displaying the top tech news" class="portfolio__img">
+                </a>
+                
+                <!-- Portfolio item 02 -->
+                <a href="google-keep.html" class="portfolio__item">
+                    <img src="img/portfolio-02.png" alt="a sticky note where you can write and save notes" class="portfolio__img">
+                </a>
+                
+                <!-- Portfolio item 03 -->
+                <a href="tic-tac-toe.html" class="portfolio__item">
+                    <img src="img/portfolio-03.png" alt="a tic-tac-toe game utilizing numbers for the grids" class="portfolio__img">
+                </a>
+                
+                <!-- Portfolio item 04 -->
+                <a href="pupil-tracker.html" class="portfolio__item">
+                    <img src="img/portfolio-04.png" alt="an image of an eye with code in the background" class="portfolio__img">
+                </a>
+                
+                <!-- Portfolio item 05 -->
+                <a href="meta-ctf.html" class="portfolio__item">
+                    <img src="img/portfolio-05.png" alt="an image of the MetaCTF scoreboard" class="portfolio__img">
+                </a>
+                
+                <!-- Portfolio item 06 -->
+                <a href="cyber-fire.html" class="portfolio__item">
+                    <img src="img/portfolio-06.png" alt="an image of the teams for the Cyber Fire Puzzles event" class="portfolio__img">
+                </a>
+                
+                <!-- Portfolio item 07 -->
+<!--                 <a href="portfolio-item.html" class="portfolio__item">
+                    <img src="img/portfolio-07.jpg" alt="" class="portfolio__img">
+                </a> -->
+                
+                <!-- Portfolio item 08 -->
+<!--                 <a href="portfolio-item.html" class="portfolio__item">
+                    <img src="img/portfolio-08.jpg" alt="" class="portfolio__img">
+                </a> -->
+                
+                <!-- Portfolio item 09 -->
+                <!-- <a href="#" class="portfolio__item">
+                    <img src="img/portfolio-09.jpg" alt="" class="portfolio__img">
+                </a> -->
+                
+                <!-- Portfolio item 0 0-->
+                <!-- <a href="#" class="portfolio__item">
+                    <img src="img/portfolio-10.jpg" alt="" class="portfolio__img">
+                </a> -->
+            </div>
+        </section>
+        
+        
+        <!-- Footer -->
+        <footer class="footer" id="footer">
+            <a href="mailto:jkim29@luc.edu" class="footer__link">jkim29@luc.edu</a>
+            <ul class="social-list">
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://www.linkedin.com/in/jkim68656c6c6f/">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://github.com/chamsom">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </li>
+            </ul>
+        </footer>
+        
+        
+        <script src="js/index.js"></script>
+        
+    </body>
+</html>

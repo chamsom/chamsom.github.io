@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Justin Kim</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />  
+        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+        <link rel="manifest" href="/site.webmanifest">
+
+        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <header>
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="index.html" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="index.html#services" class="nav__link">My Services</a></li>
+                    <li class="nav__item"><a href="index.html#about" class="nav__link">About me</a></li>
+                    <li class="nav__item"><a href="index.html#work" class="nav__link">My Work</a></li>
+                    <li class="nav__item"><a href="#footer" class="nav__link">Contact Me</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+
+        <section class="intro">
+            <h1 class="section__title section__title--intro">
+            	<strong>Pupil Tracking with OpenCV</strong>
+            </h1>
+            <p class="section__subtitle section__subtitle--intro">Python, Numpy, OpenCV2</p>
+            <img src="img/portfolio-04.png" alt="an image of an eye with code in the background" class="intro__img">
+        </section>
+        
+        <div class="portfolio-item-individual">
+            <img src="img/ssom-logo.png" alt="a poster of the research findings for Parkinson's Disease">
+            <p>The rate at which a pupil dilates is a biomarker for Parkinson’s disease. Ophthalmologists can analyze the pupil dilation rate by shining a light at the eye and observing how the pupil reacts when the light is taken away. A five-minute video of the procedure takes a medical student a few days to go through, analyzing each frame of the video.</p>
+            <p>Instead of this, we wanted to create a program to help automate the process. The optometrist can analyze the data and properly diagnose with the patient with early onset Parkinson’s, leading to preventative treatment for the patient.</p>
+            <p>The program automatically selects the pupil and tracks the center. Then, it returns the rate of change of the pupil over time. The user can confirm the selection is correct, or fix the selection when needed.</p>
+            <p>I and my cohorts, utilized Matplotlib, NumPy, Pillow, PyLab, and OpenCV2 in order to optimize and analyze custom pupil images sent over by the Stritch School of Medicine.</p> 
+            <p>Github Repository: <a href="https://github.com/chamsom/pupilTrackerAutomation" class="project-anchor" target="_blank" rel="noopener noreferrer">project code.</a></p>
+        </div>
+        
+        
+        <!-- Footer -->
+        <footer class="footer" id="footer">
+            <a href="mailto:jkim29@luc.edu" class="footer__link">jkim29@luc.edu</a>
+            <ul class="social-list">
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://www.linkedin.com/in/jkim68656c6c6f/">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://github.com/chamsom">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </li>
+            </ul>
+        </footer>
+        
+        
+        <script src="js/index.js"></script>
+        
+    </body>
+</html>

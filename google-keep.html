@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Justin Kim</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />  
+        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+        <link rel="manifest" href="/site.webmanifest">
+
+        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <header>
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="index.html" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="index.html#services" class="nav__link">My Services</a></li>
+                    <li class="nav__item"><a href="index.html#about" class="nav__link">About me</a></li>
+                    <li class="nav__item"><a href="index.html#work" class="nav__link">My Work</a></li>
+                    <li class="nav__item"><a href="#footer" class="nav__link">Contact Me</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+
+        <section class="intro">
+            <h1 class="section__title section__title--intro">
+            	<strong>Google Keep Clone</strong>
+            </h1>
+            <p class="section__subtitle section__subtitle--intro">ES6 JS, HTML, and CSS Flexbox</p>
+            <img src="img/portfolio-02.png" alt="a sticky note where you can write and save notes" class="intro__img">
+        </section>
+        
+        <div class="portfolio-item-individual">
+            <img src="img/gk-logo.png" alt="a background with several sticky notes">
+            <p>The project was finished in Summer 2020 and I attempted to emulate the functionality of Google's web application, Google Keep.</p>
+            <p>I iterated over each note id in order to see whether if it was equal to the ids stored in the constructor. HTML templates were generated using the .map() method and a data property attribute that stored the id of a given note within the HTML template.</p>
+            <p>To demo the project/website, <a href="https://chamsom.github.io/google-keep-clone/" class="project-anchor" target="_blank" rel="noopener noreferrer">click here!</a></p>
+            <p>Github Repository: <a href="https://github.com/chamsom/google-keep-clone" class="project-anchor" target="_blank" rel="noopener noreferrer">project code.</a></p>
+        </div>
+        
+        
+        <!-- Footer -->
+        <footer class="footer" id="footer">
+            <a href="mailto:jkim29@luc.edu" class="footer__link">jkim29@luc.edu</a>
+            <ul class="social-list">
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://www.linkedin.com/in/jkim68656c6c6f/">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://github.com/chamsom">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </li>
+            </ul>
+        </footer>
+        
+        
+        <script src="js/index.js"></script>
+        
+    </body>
+</html>
